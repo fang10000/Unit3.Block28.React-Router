@@ -1,0 +1,107 @@
+*{ font-family: arial, sans-serif;
+  margin: 0;
+}
+body,
+body > div {
+  height: 100vh;
+  width: 100vw;
+}
+#container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#container > div {
+  display: flex;
+}
+#navbar {
+  padding: 2em;
+  justify-content: space-evenly;
+}
+#main-section {
+  flex-grow: 1;
+}
+#main-section > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home {
+  background-color:aquamarine;
+  color:goldenrod;
+}
+.red {
+  background-color: #b05f6d;
+  color: white;
+}
+.blue {
+  background-color: #275db3;
+  color: white;
+}
+#footer {
+  background-color: azure;
+  padding: 2em;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.navbar-link-home {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: aquamarine;
+  color: goldenrod; 
+  text-decoration:solid;
+  border-radius: 17px; 
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+
+  /* Hover effect */
+  &:hover {
+    background-color:thistle; 
+  }
+}
+.navbar-link-blue {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: aquamarine;
+  color: goldenrod; 
+  text-decoration:solid;
+  border-radius: 17px; 
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+
+  /* Hover effect */
+  &:hover {
+    background-color: #275db3; 
+  }
+}
+.navbar-link-red {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: aquamarine;
+  color: goldenrod; 
+  text-decoration:solid;
+  border-radius: 17px; 
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+
+  /* Hover effect */
+  &:hover {
+    background-color: #b05f6d; 
+  }
+}
+.navbar-link-poke {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: aquamarine;
+  color: goldenrod; 
+  text-decoration:solid;
+  border-radius: 17px; 
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+
+  /* Hover effect */
+  &:hover {
+    background-color:greenyellow; 
+  }
+}
